@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_id": "appvigilante-1189",
+    "project_number": "261328742882",
+    "name": "AppVigilante"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261328742882:android:f36173e948059ccb",
+        "client_id": "android:gcm.play.android.samples.com.gcmquickstart",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "gcm.play.android.samples.com.gcmquickstart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261328742882:android:4c947e35b67a18a8",
+        "client_id": "android:br.com.projeto.vigilante",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "br.com.projeto.vigilante"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261328742882:android:01403b1f38520366",
+        "client_id": "android:br.org.projeto.vigilante",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "br.org.projeto.vigilante"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

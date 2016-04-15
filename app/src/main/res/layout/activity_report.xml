@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".ui.activities.ReportActivity"
+    tools:ignore="UnusedAttribute">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/report_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:animateLayoutChanges="true"
+        android:background="@color/colorPrimary"
+        android:elevation="6dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        tools:ignore="UnusedAttribute" />
+
+    <ScrollView
+        android:id="@+id/report_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/report_report"
+        android:layout_below="@id/report_toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/report_address_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_below="@id/report_address_title"
+                android:gravity="center_vertical"
+                android:text="@string/report_address"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <br.org.projeto.vigilante.ui.view.ReportEditText
+                android:id="@+id/report_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_address_title"
+                android:layout_marginBottom="8dp"
+                android:layout_toLeftOf="@+id/report_map_button"
+                android:layout_toStartOf="@id/report_map_button"
+                android:imeOptions="actionDone"
+                android:maxLength="300"
+                android:maxLines="5"
+                android:textColor="@color/textColor" />
+
+            <ImageButton
+                android:id="@id/report_map_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="?selectableItemBackground"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:src="@drawable/ic_communication_location_on"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/report_state_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_address"
+                android:gravity="center_vertical"
+                android:text="@string/report_state"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <br.org.projeto.vigilante.ui.view.ReportEditText
+                android:id="@+id/report_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_state_title"
+                android:layout_marginBottom="8dp"
+                android:layout_toLeftOf="@+id/report_map_button"
+                android:layout_toStartOf="@id/report_map_button"
+                android:enabled="false"
+                android:hint="@string/report_error_maps"
+                android:maxLength="30"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:id="@+id/report_city_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_state"
+                android:gravity="center_vertical"
+                android:text="@string/report_city"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <br.org.projeto.vigilante.ui.view.ReportEditText
+                android:id="@+id/report_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_city_title"
+                android:layout_marginBottom="20dp"
+                android:layout_toLeftOf="@+id/report_map_button"
+                android:layout_toStartOf="@id/report_map_button"
+                android:enabled="false"
+                android:hint="@string/report_error_maps"
+                android:maxLength="30"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:id="@+id/report_date_time_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_city"
+                android:gravity="center_vertical"
+                android:text="@string/report_date_time_title"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/report_date_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_date_time_title"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/report_date"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?selectableItemBackground"
+                    android:drawableLeft="@drawable/ic_action_event"
+                    android:drawableStart="@drawable/ic_action_event"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    tools:ignore="NewApi"
+                    tools:text="20/12/16" />
+
+                <TextView
+                    android:id="@+id/report_time"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?selectableItemBackground"
+                    android:drawableLeft="@drawable/ic_device_access_time"
+                    android:drawableStart="@drawable/ic_device_access_time"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    tools:ignore="NewApi"
+                    tools:text="20h30" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/report_corporation_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_date_layout"
+                android:gravity="center_vertical"
+                android:text="@string/report_corporation_title"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/report_corporation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_corporation_title"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:id="@+id/report_type_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_corporation"
+                android:gravity="center_vertical"
+                android:text="@string/report_type_title"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/report_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_type_title"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:id="@+id/report_occurrence_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_type"
+                android:gravity="center_vertical"
+                android:text="@string/report_occurrence"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <br.org.projeto.vigilante.ui.view.ReportEditText
+                android:id="@+id/report_occurrence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_occurrence_title"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/report_corporation_hint"
+                android:imeOptions="actionDone"
+                android:maxLength="1000"
+                android:maxLines="5"
+                android:textColor="@color/textColor" />
+
+            <RelativeLayout
+                android:id="@+id/report_attach_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_occurrence"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/report_attach_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/report_attach_title"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="12sp" />
+
+                <RelativeLayout
+                    android:id="@+id/report_preview_layout"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/report_attach_title"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    tools:visibility="visible">
+
+                    <ImageButton
+                        android:id="@+id/report_preview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        tools:ignore="ContentDescription"
+                        tools:src="@mipmap/ic_launcher" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/ic_navigation_close"
+                        android:clickable="false"
+                        android:elevation="1dp"
+                        tools:ignore="ContentDescription" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/report_attach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/report_attach_title"
+                    android:layout_marginBottom="16dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:visibility="gone">
+
+                    <Button
+                        android:id="@+id/report_attach_gallery"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="?selectableItemBackground"
+                        android:drawableTop="@drawable/ic_editor_insert_photo"
+                        android:padding="8dp"
+                        android:text="@string/report_attach_gallery"
+                        android:textColor="@color/textColor" />
+
+                    <Button
+                        android:id="@+id/report_attach_image"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="?selectableItemBackground"
+                        android:drawableTop="@drawable/ic_image_photo_camera"
+                        android:padding="8dp"
+                        android:text="@string/report_attach_image"
+                        android:textColor="@color/textColor" />
+
+                    <Button
+                        android:id="@+id/report_attach_video"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="?selectableItemBackground"
+                        android:drawableTop="@drawable/ic_av_videocam"
+                        android:padding="8dp"
+                        android:text="@string/report_attach_video"
+                        android:textColor="@color/textColor" />
+
+                    <Button
+                        android:id="@+id/report_attach_audio"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="?selectableItemBackground"
+                        android:drawableTop="@drawable/ic_av_mic"
+                        android:padding="8dp"
+                        android:text="@string/report_attach_audio"
+                        android:textColor="@color/textColor" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/config_wifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/report_attach_layout"
+                android:layout_marginBottom="20dp"
+                android:layout_toLeftOf="@+id/config_wifi_switch"
+                android:layout_toStartOf="@id/config_wifi_switch"
+                android:gravity="center_vertical"
+                android:text="@string/config_wifi"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@id/config_wifi_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/config_wifi"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/report_attach_layout"
+                android:checked="false"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/config_wifi"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                tools:ignore="UnknownId">
+
+                <TextView
+                    android:id="@+id/report_identify_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/report_identify_title"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/report_identify_button"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/second_button_selector"
+                        android:text="@string/report_identify"
+                        android:textColor="@color/second_button_text_color"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/report_anonymous_button"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/main_button_selector"
+                        android:text="@string/report_anonymous"
+                        android:textColor="@color/main_button_text_color"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/report_identify_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/report_name_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/report_name"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/report_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLength="300"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/report_contact"
+                        android:singleLine="true"
+                        android:textColor="@color/textColor" />
+
+                    <TextView
+                        android:id="@+id/report_contact_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/report_contact"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@id/report_contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionDone"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="300"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/textColor" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/report_report"
+        style="@style/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/main_report" />
+
+</RelativeLayout>

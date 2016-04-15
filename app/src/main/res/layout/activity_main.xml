@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/man_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ui.activities.MainActivity">
+
+    <TextView
+        android:id="@+id/main_title_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title_up"
+        android:textAllCaps="true"
+        android:textColor="@color/main_title"
+        android:textSize="35sp"
+        android:gravity="center"
+        tools:targetApi="ice_cream_sandwich"
+        android:layout_above="@+id/main_title"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_subtitle"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/main_title"
+        android:textAllCaps="true"
+        android:textColor="@color/main_title"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <TextView
+        android:id="@id/main_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/main_subtitle"
+        android:textColor="@color/main_title"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/main_follow"
+        style="@style/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/main_follow"
+        android:layout_above="@+id/main_report"
+        android:layout_alignLeft="@+id/main_report"
+        android:layout_alignStart="@+id/main_report"
+        android:layout_alignRight="@+id/main_report"
+        android:layout_alignEnd="@+id/main_report" />
+
+    <Button
+        android:id="@+id/main_report"
+        style="@style/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/main_your_rights"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/main_report" />
+
+    <TextView
+        android:id="@id/main_your_rights"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/main_your_rights"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

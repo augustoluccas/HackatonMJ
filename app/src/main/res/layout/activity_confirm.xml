@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.ConfirmActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/confirm_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:animateLayoutChanges="true"
+        android:background="@color/colorPrimary"
+        android:elevation="6dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        tools:ignore="UnusedAttribute" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/confirm_send"
+        android:layout_below="@id/confirm_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/confirm_address"
+                style="@style/confirm_text_style" />
+
+            <TextView
+                android:id="@+id/confirm_date"
+                style="@style/confirm_text_style" />
+
+            <TextView
+                android:id="@+id/confirm_occcurrence"
+                style="@style/confirm_text_style" />
+
+            <TextView
+                android:id="@+id/confirm_convenio"
+                style="@style/confirm_text_style" />
+
+            <TextView
+                android:id="@+id/confirm_type"
+                style="@style/confirm_text_style" />
+
+            <TextView
+                android:id="@+id/confirm_name"
+                style="@style/confirm_text_style" />
+
+            <TextView
+                android:id="@+id/confirm_contact"
+                style="@style/confirm_text_style" />
+
+            <TextView
+                android:id="@+id/confirm_attach_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/confirm_attach_title"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/confirm_attach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="48dp"
+                android:scaleType="fitXY"
+                android:visibility="gone"
+                tools:ignore="ContentDescription"
+                tools:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@id/confirm_send"
+        style="@style/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/confirm_warning"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/confirm_button" />
+
+    <TextView
+        android:id="@id/confirm_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/warning"
+        android:padding="16dp"
+        android:text="@string/confirm_dialog_warning_message"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</RelativeLayout>

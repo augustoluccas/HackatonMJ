@@ -1,0 +1,107 @@
+<resources>
+
+    <string name="app_name">Vigilante</string>
+
+    <string name="main_title_up">Ministério da</string>
+    <string name="main_title">Justiça</string>
+    <string name="main_subtitle">Acompanhe os repasses do Governo Federal e denuncie casos de corrupção.</string>
+    <string name="main_report">Denuncie</string>
+    <string name="main_follow">Acompanhe</string>
+    <string name="main_your_rights">Conheça seus direitos</string>
+
+    <string name="your_right_title">Entenda como funciona</string>
+    <string name="your_right_text">Seção destinada à explicação ao usuário de como faz para acompanhar e analisar as informações dos convênios firmados pelo Governo Federal e demais entes federativos, bem como a maneira de realizar denúncias de corrupção e seu consequente escopo.</string>
+
+
+    <string name="report_title">Nova denúncia</string>
+    <string name="report_address">Endereço</string>
+    <string name="report_state">Estado</string>
+    <string name="report_city">Cidade</string>
+    <string name="report_address_hint">Rua, número…</string>
+    <string name="report_occurrence">Ocorrência</string>
+    <string name="report_corporation_title">Corporação</string>
+    <string name="report_corporation_hint">Máx. 1000 caracteres</string>
+    <string name="report_type_title">Natureza de denúncia</string>
+    <string name="report_date_time_title">Data e hora</string>
+    <string name="report_maps">Adicionar localização</string>
+    <string name="report_attach_title">Anexar mídia</string>
+
+    <string name="report_identify_title">Autoria da Denúncia</string>
+    <string name="report_identify">Identifique-se</string>
+    <string name="report_anonymous">Anônimo</string>
+    <string name="report_name">Nome</string>
+    <string name="report_contact">Contato</string>
+
+    <string name="report_spinner_zero">Selecione</string>
+
+    <string name="report_attach_gallery">Galeria</string>
+    <string name="report_attach_image">Foto</string>
+    <string name="report_attach_video">Vídeo</string>
+    <string name="report_attach_audio">Áudio</string>
+
+    <string name="report_error_occurrence">Preencha a ocorrência</string>
+    <string name="report_error_corporation">Preencha uma corporação</string>
+    <string name="report_error_address">Preencha um endereço utilizando o GPS</string>
+    <string name="report_error_state">Preencha um estado utilizando o GPS</string>
+    <string name="report_error_city">Preencha uma cidade</string>
+    <string name="report_error_maps">Não disponível</string>
+    <string name="report_error_future">A ocorrência não pode ser uma data futura</string>
+    <string name="report_error_attach_permission">Aceite a permissão para continuar</string>
+    <string name="report_error_no_sdcard">Insira um cartão SD antes de usar o microfone.</string>
+    <string name="report_error_mic_not_read">O microfone não pode ser utilizado no momento.</string>
+
+    <string-array name="report_corporation">
+        <item>Não informado</item>
+        <item>Polícia Militar</item>
+        <item>Polícia Civil</item>
+        <item>Guarda Municipal</item>
+        <item>Polícia Federal</item>
+        <item>Polícia Rodoviária Federal</item>
+    </string-array>
+
+    <string-array name="report_type">
+        <item>Não informado</item>
+        <item>Abuso de autoridade</item>
+        <item>Violência</item>
+        <item>Suborno</item>
+        <item>Violência contra mulher</item>
+    </string-array>
+
+    <string name="maps_title">Localização</string>
+    <string name="maps_confirm">Usar localização</string>
+    <string name="maps_try_again">Localização ainda não disponível. Verifique sua conexão.</string>
+
+    <string name="audio_capture_title">Grave um áudio</string>
+    <string name="audio_capture_record">Gravar</string>
+    <string name="audio_capture_stop">Parar</string>
+
+    <string name="config_wifi">Para fins de economia de seu plano de dados 3G/4G, deseja enviar esta denúnia apenas quando estiver no Wi-Fi?</string>
+
+    <string name="confirm_title">Confirmar</string>
+
+    <string name="confirm_address">Endereço \n%S</string>
+    <string name="confirm_date">Data \n%S</string>
+    <string name="confirm_occcurrence">Ocorrência \n%S</string>
+    <string name="confirm_corporation">Corporação \n%S</string>
+    <string name="confirm_convenio">Convênio \n%S</string>
+    <string name="confirm_type">Natureza de denúncia \n%S</string>
+    <string name="confirm_name">Nome \n%S</string>
+    <string name="confirm_contact">Contato \n%S</string>
+    <string name="confirm_button">Enviar denúncia</string>
+    <string name="confirm_attach_title">Mídia anexada</string>
+
+    <string name="confirm_dialog_warning_message">Trotes e denunciações caluniosas são crimes conforme o artigo 340 do Código Penal. Enviando a denúncia você atesta toda a veracidade do que aqui é enviado e autoriza o seu consequente envio aos órgãos competentes para sua apuração.</string>
+    <string name="confirm_dialog_warning_ok">Enviar</string>
+    <string name="confirm_dialog_warning_cancel">Descartar</string>
+    <string name="confirm_dialog_sent_title">Denúncia enviada</string>
+    <string name="confirm_dialog_sent_message">Sua denúncia será processada e enviada aos órgãos competentes.</string>
+
+
+    <string name="follow_title">Acompanhe e Fiscalize</string>
+    <string name="follow_advanced_search">Pesquisa Avançada</string>
+    <string name="follow_search">Pesquisar</string>
+
+    <string name="search_result_title">Resultado da Pesquisa</string>
+
+    <string name="info_title">700019</string>
+</resources>

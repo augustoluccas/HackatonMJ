@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_df80bcb7d9b51ca0e896a94a7d7bc8c6f2ed3fbc.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-answers-1.3.6_912f55ddc75c6017b52190bfb1d623833adeafa7.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.3.10_a4a7c778c63e38dd5510e7187eb1578315050dbc.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_a3f2c904aa7f0193f4e565bb54271370e397c8d6.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_edea60663c508e218f1a1fbb90cbc8b54b96ca1a.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0_ff55b2f7ef3e5552bcd0528b784b413417e4fbc2.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-8.4.0_de23de8228c925998ccb8b42d85ef44e9f3ae9cd.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_195f214ef9670958046c0bfaa169acad86ef5b39.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_d963bbd9c314c1b222799c522260c3ff797dd522.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.5/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-2.5.5_a1a274807d9d1d688281aa8a13dbc19f134b8b3a.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-beta-1.1.4_e2d3c1b9ad5e557825a1c62c7cc519b5238998e9.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.4.0_f155e9b590bc5fdfb6885a317e3fc897b427b121.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0_f1d5242d15674a207c8ad6764617c270f1504021.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_d082e9a73734e204902967e8a41867ea52354ef2.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_ff863c651dae0ce447bf37357e1578d06412f544.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-8.4.0_bbd7bced2a5629ce0fbca8363791beeb47231a83.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/okio-1.6.0_44b398af3942f7525cdba2e7dc45372396f91d47.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/gson-2.3.1_6dc6a9081c086fb04b551aa279ca4e55fa063aa9.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.0_ab3b3b9d854bedac9443493ec3643ba5865b95fa.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/4.0-SNAPSHOT/6df845decdeef73e5b631cdaa82306a6a03b199b/androidannotations-api-4.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6df845decdeef73e5b631cdaa82306a6a03b199b">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/androidannotations-api-4.0-SNAPSHOT_392d2ff1beb414f064bbf72d78cde296b50de9d8.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.5.0/d737653459be272e881d51024274fa4785225641/okhttp-urlconnection-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d737653459be272e881d51024274fa4785225641">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.5.0_96c173335021a79184cbae8a1c8d645b01d2a659.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.0_59240c9266d17e4b1da5b73761be98de4089f9f2.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.8/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.8_cfd71127d9bed2b61ade0a8babb99e58cf1a43a7.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-measurement-8.4.0_d3f3e4ac95684c4b01c0f1d730fd7afe428971ea.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_b1147956c218a6c17ca6aa5d75202018934beead.jar" />
+    </item>
+    <item
+        jar="/Users/viniciuscarvalho/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/viniciuscarvalho/Documents/projetos-hackaton/vigilante-mj/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_48be133c87364cdad08eb470dc435b6b455888e4.jar" />
+    </item>
+
+</items>

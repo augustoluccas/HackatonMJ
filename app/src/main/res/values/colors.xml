@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1C7398</color>
+    <color name="colorPrimaryDark">#044763</color>
+    <color name="colorAccent">#044763</color>
+
+    <color name="textColor">#727272</color>
+
+    <color name="main_title">@android:color/white</color>
+    <color name="main_background">#012231</color>
+    <color name="main_your_rights">#949292</color>
+
+    <color name="main_button_color">#0074ac</color>
+    <color name="main_button_color_pressed">#004769</color>
+    <color name="main_button_text_color">@android:color/white</color>
+
+    <color name="second_button_color">@android:color/white</color>
+    <color name="second_button_color_pressed">#004769</color>
+    <color name="second_button_text_color">#0074ac</color>
+
+    <color name="warning">#801515</color>
+</resources>
